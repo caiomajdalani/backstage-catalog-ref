@@ -5,6 +5,8 @@ metadata:
   description: The Architecture department
 spec:
   type: department
+  profile:
+    displayName: Architecture
   # Intentional no profile for testing
   children: [Background, Squads]
 ---

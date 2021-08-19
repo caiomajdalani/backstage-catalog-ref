@@ -5,6 +5,8 @@ metadata:
   description: The QA department
 spec:
   type: department
+  profile:
+    displayName: QA
   # Intentional no profile for testing
-  # children: [Background, Squads]
+  children: []
 ---
