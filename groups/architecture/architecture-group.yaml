@@ -18,13 +18,3 @@ spec:
     email: raphael.riscado@example.com
     picture: https://avatars.dicebear.com/api/male/raphael.riscado.svg
   memberOf: [Architecture]
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: all-groups
-  description: A collection of all groups from Architecture Team
-spec:
-  targets:
-    - ./background-group.yaml
-    - ./squads-group.yaml

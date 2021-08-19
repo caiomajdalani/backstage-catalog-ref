@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-groups
+  description: A collection of all groups from Carrefour Bank Team
+spec:
+  targets:
+    - ./architecture/architecture-group.yaml
+    - ./architecture/background-group.yaml
+    - ./architecture/squads-group.yaml
+    - ./development/development-group.yaml
+    - ./qa/qa-group.yaml

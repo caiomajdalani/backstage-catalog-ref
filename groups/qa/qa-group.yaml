@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: QA
+  description: The QA department
+spec:
+  type: department
+  # Intentional no profile for testing
+  # children: [Background, Squads]
+---
