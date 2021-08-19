@@ -8,7 +8,7 @@ spec:
   profile:
     displayName: Architecture
   # Intentional no profile for testing
-  children: [Background, Squads]
+  children: [Background, Squads, Devops]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User

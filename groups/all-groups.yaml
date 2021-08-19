@@ -9,5 +9,6 @@ spec:
     - ./architecture/architecture-group.yaml
     - ./architecture/background-group.yaml
     - ./architecture/squads-group.yaml
+    - ./architecture/devops-group.yaml
     - ./development/development-group.yaml
     - ./qa/qa-group.yaml
