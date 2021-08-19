@@ -7,3 +7,4 @@ metadata:
 spec:
   targets:
     - https://github.com/caiomajdalani/libquality/blob/master/libquality-api.yaml
+    - https://github.com/caiomajdalani/service-grafana/blob/master/service-grafana-api.yaml
