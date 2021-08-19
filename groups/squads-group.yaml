@@ -1,68 +1,79 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: squads
-  description: The architecture squads team
+  name: Squads
+  description: The Architecture Squads Team
 spec:
   type: team
   profile:
-    displayName: Team B
+    displayName: Squads
     email: team-b@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
-  parent: architecture
+  parent: Architecture
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: amelia.park
+  name: bruno.tanaka
 spec:
   profile:
-    displayName: Amelia Park
-    email: amelia-park@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/amelia-park@example.com.svg?background=%23fff
-  memberOf: [squads]
+    displayName: Bruno Tanaka
+    email: bruno.tanaka@example.com
+    picture: https://avatars.dicebear.com/api/male/bruno.tanaka.svg
+  memberOf: [Squads]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: colette.brock
+  name: evandro.martins
 spec:
   profile:
-    displayName: Colette Brock
-    email: colette-brock@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/colette-brock@example.com.svg?background=%23fff
-  memberOf: [squads]
+    displayName: Evandro Martins
+    email: evandro.martins@example.com
+    picture: https://avatars.dicebear.com/api/male/evandro.martins.svg
+  memberOf: [Squads]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: jenny.doe
+  name: leandro.lima
 spec:
   profile:
-    displayName: Jenny Doe
-    email: jenny-doe@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/jenny-doe@example.com.svg?background=%23fff
-  memberOf: [squads]
+    displayName: Leandro Lima
+    email: leandro.lima@example.com
+    picture: https://avatars.dicebear.com/api/male/leandro.lima.svg
+  memberOf: [Squads]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: jonathon.page
+  name: wilson.donizetti
 spec:
   profile:
-    displayName: Jonathon Page
-    email: jonathon-page@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/jonathon-page@example.com.svg?background=%23fff
-  memberOf: [squads]
+    displayName: Wilson Donizetti
+    email: wilson.donizetti@example.com
+    picture: https://avatars.dicebear.com/api/male/wilson.donizetti.svg
+  memberOf: [Squads]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: justine.barrow
+  name: silvio.gomes
 spec:
   profile:
-    displayName: Justine Barrow
-    email: justine-barrow@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/justine-barrow@example.com.svg?background=%23fff
-  memberOf: [squads]
+    displayName: Silvio Gomes
+    email: silvio.gomes@example.com
+    picture: https://avatars.dicebear.com/api/male/silvio.gomes.svg
+  memberOf: [Squads]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: paulo.jose
+spec:
+  profile:
+    displayName: Paulo Jose
+    email: paulo.jose@example.com
+    picture: https://avatars.dicebear.com/api/male/paulo.jose.svg
+  memberOf: [Squads]

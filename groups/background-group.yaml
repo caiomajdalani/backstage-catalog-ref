@@ -1,60 +1,135 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: background
-  description: Background architecture team
+  name: Background
+  description: Background Architecture Team
 spec:
   type: team
   profile:
+    displayName: Background
     # Intentional no displayName for testing
     email: background-architecture@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
-  parent: architecture
+  parent: Architecture
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: breanna.davison
+  name: caio.majdalani
 spec:
   profile:
-    # Intentional no displayName for testing
-    email: breanna-davison@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-  memberOf: [background]
+    displayName: Caio Majdalani
+    email: caio.majdalani@example.com
+    picture: https://avatars.dicebear.com/api/male/caio.majdalani.svg?r=50&m=12&mood[]=happy&mood[]=sad
+  memberOf: [Background]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: janelle.dawe
+  name: alessandro.nunes
 spec:
   profile:
-    displayName: Janelle Dawe
-    email: janelle-dawe@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
-  memberOf: [background]
+    displayName: Alessandro Nunes
+    email: alessandro.nunes@example.com
+    picture: https://avatars.dicebear.com/api/male/alessandro.nunes.svg?r=50&m=12&mood[]=happy&mood[]=sad
+  memberOf: [Background]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: nigel.manning
+  name: luiz.flores
 spec:
   profile:
-    displayName: Nigel Manning
-    email: nigel-manning@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
-  memberOf: [background]
+    displayName: Luiz Flores
+    email: luiz.flores@example.com
+    picture: https://avatars.dicebear.com/api/male/luiz.flores.svg?r=50&m=12&mood[]=happy&mood[]=sad
+  memberOf: [Background]
 ---
-# This user is added as an example, to make it more easy for the "Guest"
-# sign-in option to demonstrate some entities being owned. In a regular org,
-# a guest user would probably not be registered like this.
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: guest
+  name: paulo.junior
 spec:
   profile:
-    displayName: Guest User
-    email: guest@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [background]
+    displayName: Paulo Junior
+    email: paulo.junior@example.com
+    picture: https://avatars.dicebear.com/api/male/paulo.junior.svg?r=50&m=12&mood[]=happy&mood[]=sad
+  memberOf: [Background]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: luiz.fernando
+spec:
+  profile:
+    displayName: Luiz Fernando
+    email: luiz.fernando@example.com
+    picture: https://avatars.dicebear.com/api/male/luiz.fernando.svg?r=50&m=12&mood[]=happy&mood[]=sad
+  memberOf: [Background]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ernane.sena
+spec:
+  profile:
+    displayName: Ernane Sena
+    email: ernane.sena@example.com
+    picture: https://avatars.dicebear.com/api/male/ernane%20sena.svg?r=50&m=12&mood[]=happy&mood[]=sad
+  memberOf: [Background]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pamela.kelly
+spec:
+  profile:
+    displayName: Pamela Kelly
+    email: pamela.kelly@example.com
+    picture: https://avatars.dicebear.com/api/female/pamela.kelly.svg
+  memberOf: [Background]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: wallace.gomes
+spec:
+  profile:
+    displayName: Wallace Gomes
+    email: wallace.gomes@example.com
+    picture: https://avatars.dicebear.com/api/male/wallace.gomes.svg
+  memberOf: [Background]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: igor.pereira
+spec:
+  profile:
+    displayName: Igor Pereira
+    email: igor.pereira@example.com
+    picture: https://avatars.dicebear.com/api/male/igor.pereira.svg
+  memberOf: [Background]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rogerio.lima
+spec:
+  profile:
+    displayName: Rogerio Lima
+    email: rogerio.lima@example.com
+    picture: https://avatars.dicebear.com/api/male/rogerio.lima.svg
+  memberOf: [Background]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alberto.monteiro
+spec:
+  profile:
+    displayName: Alberto Monteiro
+    email: alberto.monteiro@example.com
+    picture: https://avatars.dicebear.com/api/male/alberto.monteiro.svg
+  memberOf: [Background]

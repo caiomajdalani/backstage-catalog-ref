@@ -1,10 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: architecture
+  name: Architecture
   description: The Architecture department
 spec:
   type: department
   # Intentional no profile for testing
-  parent: majdalani-company
-  children: [background, squads]
+  children: [Background, Squads]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-groups
+  description: A collection of all groups from Architecture Team
+spec:
+  targets:
+    - ./background-group.yaml
+    - ./squads-group.yaml
