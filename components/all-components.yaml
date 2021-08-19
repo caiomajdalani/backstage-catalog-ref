@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-components
+  description: All components from Backstage Catalog 
+spec:
+  targets:
+    - https://github.com/caiomajdalani/libquality/blob/master/libquality-component.yaml

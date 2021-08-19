@@ -1,0 +1,9 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-apis
+  description: All apis from Backstage Catalog 
+spec:
+  targets:
+    - https://github.com/caiomajdalani/libquality/blob/master/libquality-api.yaml
